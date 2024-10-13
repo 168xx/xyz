@@ -25,8 +25,8 @@ jobs:
     - name: 更新
       run: |
         # 直播源
-        rm -f tv/tv.txt && wget https://raw.githubusercontent.com/360vip/v4/refs/heads/main/v4/LB.m3u -O tv/tv.txt
-        rm -f tv/tv.m3u && wget https://raw.githubusercontent.com/360vip/v4/refs/heads/main/v4/LB.m3u -O tv/tv.m3u
+        rm -f tv/tv.txt && wget https://raw.githubusercontent.com/360vip/jm/refs/heads/main/tv/tv.txt -O tv/tv.txt
+        rm -f tv/tv.m3u && wget https://raw.githubusercontent.com/360vip/jm/refs/heads/main/tv/tv.m3u -O tv/tv.m3u
 
         # 节目源
         rm -f EPG.xml && wget https://epg.112114.xyz/pp.xml -O EPG.xml
