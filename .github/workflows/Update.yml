@@ -27,6 +27,7 @@ jobs:
         # 直播源
         rm -f tv/tv.txt && wget https://raw.githubusercontent.com/360vip/jm/refs/heads/main/tv/tv.txt -O tv/tv.txt
         rm -f tv/tv.m3u && wget https://raw.githubusercontent.com/360vip/jm/refs/heads/main/tv/tv.m3u -O tv/tv.m3u
+        rm -f tv/v.txt && wget http://tvbox6.icu/11.php?all=1 -O tv/v.txt
 
         # 节目源
         rm -f EPG.xml && wget https://epg.112114.xyz/pp.xml -O EPG.xml
