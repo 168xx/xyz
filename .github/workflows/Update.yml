@@ -30,6 +30,8 @@ jobs:
         rm -f tv/v4.txt && wget https://raw.githubusercontent.com/168xx/z/refs/heads/main/v4/v4.txt -O tv/v4.txt
         rm -f tv/v4.m3u && wget https://raw.githubusercontent.com/168xx/z/refs/heads/main/v4/v4.m3u -O tv/v4.m3u
         rm -f tv/v6.txt && wget https://raw.githubusercontent.com/168xx/lm/refs/heads/main/lv/litelive.txt -O tv/v6.txt
+        rm -f tv/zb.m3u && wget https://raw.githubusercontent.com/168xx/lm/refs/heads/main/lv/live.m3u -O tv/zb.m3u
+        rm -f tv/zb.txt && wget https://raw.githubusercontent.com/168xx/lm/refs/heads/main/lv/live.txt -O tv/zb.txt
 
         # 节目源
         rm -f EPG.xml && wget https://epg.112114.xyz/pp.xml -O EPG.xml
